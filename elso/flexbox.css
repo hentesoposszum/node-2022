@@ -1,0 +1,27 @@
+h1 {
+	text-align: center;
+	font-size: 32pt;
+}
+
+#container > div {
+	background-color: green;
+	width: 30%;
+	margin-bottom: 3%;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: purple;
+	height: 50vh;
+}
+
+#doboz {
+	width: 30vw;
+	height: 30vh;
+	background-color: red;
+	margin: 0 auto;
+}
