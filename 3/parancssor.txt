@@ -1,0 +1,17 @@
+Relatív útvonalak
+-----------------
+. - jelenlegi mappa
+.. - eggyel fentebb lévő mappa (szülő)
+
+Parancsok
+---------
+pwd - kiírja hol vagytok éppen
+cd <hova> - mappaváltás
+ls - kiírja a jelenlegi mappa tartalmát
+mkdir <név> - mappa létrehozás
+touch <fájlnév> - üres fájl létrehozása
+code <hol> - megnyit egy mappát VS Code-ban
+code . - jelenlegi mappa megnyitása VS Code-ban
+node - node parancssor megnyitása (olyan mint a böngészős, inspectes console)
+     - kétszeres Ctrl-C zárja be
+node <mit> - egy JS fájl lefuttatása Node-dal
