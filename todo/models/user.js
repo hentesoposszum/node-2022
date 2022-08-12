@@ -1,5 +1,7 @@
 const mongoose = require("mongoose");
 
+// séma létrehozása
+// (milyen tulajdonságai vannak egy usernek)
 const userSchema = new mongoose.Schema({
 	username: {
 		type: String,
