@@ -1,0 +1,29 @@
+* {
+	text-align: center;
+	margin: 0 auto;
+}
+
+h1 {
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+}
+
+input[type=text] {
+	width: 30%;
+}
+
+label {
+	display: block;
+}
+
+button {
+	display: block;
+	margin-top: 2vh;
+	width: 8%;
+	transition: 150ms all;
+}
+
+button:hover {
+	width: 11%;
+	cursor: pointer;
+}
